@@ -1,0 +1,28 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'FLSocketIM' do
+  pod 'Socket.IO-Client-Swift', '~> 9.0.1'
+  pod 'Masonry', '~> 1.0.1'
+  pod 'AFNetworking', '~> 3.2.1'
+  pod 'FMDB', '~> 2.7.2'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'SDWebImage', '~> 4.0.0'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'YYModel', '~> 1.0.4'
+  pod 'GPUImage', '~> 0.1.7'
+  pod 'AMapLocation', '~> 2.4.0'
+  pod 'AMap2DMap', '~> 4.6.0'
+  pod 'AMapSearch', '~> 5.2.1'
+  # pod 'YYKit'
+  target 'FLSocketIMTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FLSocketIMUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,59 @@
+//
+//  FLSocketIM_Prefix.pch
+//  FLSocketIM
+//
+//  Created by 冯里 on 2017/7/6.
+//  Copyright © 2017年 冯里. All rights reserved.
+//
+
+
+#import "UIView+Common.h"
+#import "RequestUrlConst.h"
+#import "FLAlertView.h"
+#import "FLNetWorkManager.h"
+#import "UIViewController+Common.h"
+#import "UIColor+Common.h"
+#import "NSDate+Common.h"
+#import "NSString+Common.h"
+#import "ColorConst.h"
+#import "Masonry.h"
+#import "YYModel.h"
+#import "FLClientManager.h"
+#import "FLChatManager.h"
+#import "FLSocketManager.h"
+#import "UIImageView+WebCache.h"
+#import "FLChatDBManager.h"
+@import SocketIO;
+#import "MJRefresh.h"
+#import "FLLocalNotification.h"
+#import "FLSystemTool.h"
+#import "UIImageView+common.h"
+#import "UIImage+Common.h"
+#import "NSData+FLCommon.h"
+
+#ifdef DEBUG // 处于开发阶段
+#define FLLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define FLLog(...)
+#endif
+
+
+#define FLNotificationCenter [NSNotificationCenter defaultCenter]
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kPadding 10.0f
+#define kMargin 15.0f
+#define FLFont(f) [UIFont systemFontOfSize:(f)]
+#define FLUserDefault [NSUserDefaults standardUserDefaults]
+#define kKeyWindow [UIApplication sharedApplication].keyWindow
+#define FLNotificationCenter [NSNotificationCenter defaultCenter]
+// 判断是否是iPhone X
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+// 状态栏高度
+#define STATUS_BAR_HEIGHT (iPhoneX ? 44.f : 20.f)
+// 导航栏高度
+#define NAVIGATION_BAR_HEIGHT (iPhoneX ? 88.f : 64.f)
+// tabBar高度
+#define TAB_BAR_HEIGHT (iPhoneX ? (49.f+34.f) : 49.f)
+// home indicator
+#define HOME_INDICATOR_HEIGHT (iPhoneX ? 34.f : 0.f)
