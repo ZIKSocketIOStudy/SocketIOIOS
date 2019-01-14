@@ -7,7 +7,7 @@
 //
 
 // 服务器地址
-//#define BaseUrl  @"http://192.168.0.102:3000"
+//#define BaseUrl  @"http://192.168.0.100:3000"
 #define BaseUrl                                 @"http://59.110.234.165:3000"
 
 
