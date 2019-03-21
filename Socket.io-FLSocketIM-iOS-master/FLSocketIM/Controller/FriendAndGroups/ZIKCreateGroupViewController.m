@@ -26,9 +26,10 @@
     parameters[@"userName"] = [FLClientManager shareManager].currentUserID;
 //    parameters[@"password"] = [FLClientManager shareManager].currentUserID;
     parameters[@"group_name"] = @"kongGroup";
+    parameters[@"user_id"] = [FLClientManager shareManager].currentUserID;
     __weak typeof(self) weakSelf = self;
     [FLNetWorkManager ba_requestWithType:Post withUrlString:CreateGroup_Url withParameters:parameters withSuccessBlock:^(id response) {
-        
+        NSLog(@"response:%@",response);
         [weakSelf hideHud];
         if ([response[@"code"] integerValue] < 0) {
             
@@ -50,14 +51,6 @@
 
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -321,14 +321,17 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 
                 if (image) { // 本地有图片
-                    
+
                     FLLog(@"本地有图片");
                     [self.messageImage setImage:image];
                 }
                 else { // 网络加载图片
-                    
+
                     FLLog(@"网络加载图片");
-                    [self.messageImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/%@", BaseUrl, messageBody.thumbnailRemotePath]]];
+                   // [self.messageImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/%@", BaseUrl, messageBody.thumbnailRemotePath]]];
+                NSString  *url = [NSString stringWithFormat:@"%@/%@", BaseUrl, messageBody.thumbnailRemotePath];
+                NSLog(@"url:%@",url);
+                [self.messageImage sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@/%@", BaseUrl, messageBody.thumbnailRemotePath]] placeholderImage:[UIImage imageNamed:@"place132"]];
                 }
             });
         });

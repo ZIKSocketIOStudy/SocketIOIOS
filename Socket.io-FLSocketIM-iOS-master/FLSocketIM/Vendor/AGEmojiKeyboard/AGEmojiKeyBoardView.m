@@ -41,7 +41,7 @@ NSString *const RecentUsedEmojiCharactersKey = @"RecentUsedEmojiCharactersKey";
 
 - (NSString *)categoryNameAtIndex:(NSUInteger)index {
     //    NSArray *categoryList = @[segmentRecentName, @"People", @"Objects", @"Nature", @"Places", @"Symbols"];
-    NSArray *categoryList = @[@"emoji", @"emoji_code", @"big_monkey", @"big_monkey_gif"];
+    NSArray *categoryList = @[@"emoji", @"emoji_code", @"big_monkey", @"big_monkey_gif",@"emoji", @"emoji_code", @"big_monkey", @"big_monkey_gif",@"emoji", @"emoji_code", @"big_monkey", @"big_monkey_gif",@"emoji", @"emoji_code", @"big_monkey", @"big_monkey_gif"];
     return index < categoryList.count? categoryList[index]: categoryList.lastObject;
 }
 

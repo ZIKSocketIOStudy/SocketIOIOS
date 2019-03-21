@@ -199,6 +199,8 @@
 		7B6B88B802C316BC70E027C1 /* Pods_FLSocketIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8653D711C85AC9A60FF0F41 /* Pods_FLSocketIM.framework */; };
 		7CBA30BF340E9FAB83805313 /* Pods_FLSocketIMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542B8E6B11EEA73C1E79ADFF /* Pods_FLSocketIMUITests.framework */; };
 		EB29E5D521DE577A00B6EEC0 /* ZIKCreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB29E5D421DE577A00B6EEC0 /* ZIKCreateGroupViewController.m */; };
+		EB4A4A252234B599005347B8 /* YXZIKBaseWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A4A232234B598005347B8 /* YXZIKBaseWKWebViewController.m */; };
+		EB4A4A272234E71D005347B8 /* yinsi.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4A4A262234E71D005347B8 /* yinsi.html */; };
 		EBE7C84D21EC9F8D00A2C3D6 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE7C84C21EC9F8D00A2C3D6 /* libWebRTC.a */; };
 /* End PBXBuildFile section */
 
@@ -511,6 +513,9 @@
 		D8653D711C85AC9A60FF0F41 /* Pods_FLSocketIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLSocketIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB29E5D321DE577A00B6EEC0 /* ZIKCreateGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIKCreateGroupViewController.h; sourceTree = "<group>"; };
 		EB29E5D421DE577A00B6EEC0 /* ZIKCreateGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIKCreateGroupViewController.m; sourceTree = "<group>"; };
+		EB4A4A232234B598005347B8 /* YXZIKBaseWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXZIKBaseWKWebViewController.m; sourceTree = "<group>"; };
+		EB4A4A242234B598005347B8 /* YXZIKBaseWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZIKBaseWKWebViewController.h; sourceTree = "<group>"; };
+		EB4A4A262234E71D005347B8 /* yinsi.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = yinsi.html; sourceTree = "<group>"; };
 		EBE7C82E21EC9F8D00A2C3D6 /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
 		EBE7C82F21EC9F8D00A2C3D6 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
 		EBE7C83021EC9F8D00A2C3D6 /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
@@ -702,6 +707,9 @@
 				123AA0581F0E3F0E00DCC9E9 /* FLNavigationController.m */,
 				123AA04B1F0E3C9C00DCC9E9 /* FLViewController.h */,
 				123AA04C1F0E3C9C00DCC9E9 /* FLViewController.m */,
+				EB4A4A242234B598005347B8 /* YXZIKBaseWKWebViewController.h */,
+				EB4A4A232234B598005347B8 /* YXZIKBaseWKWebViewController.m */,
+				EB4A4A262234E71D005347B8 /* yinsi.html */,
 				123AA04A1F0E3C4A00DCC9E9 /* FriendAndGroups */,
 				123AA0421F0E31A100DCC9E9 /* Chat */,
 				123AA0391F0E2F6E00DCC9E9 /* Login */,
@@ -1409,10 +1417,10 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -1510,6 +1518,7 @@
 				122EBBAF1F14D6A6000E7F70 /* keyboard_arrow_down@2x.png in Resources */,
 				1233925D1F3C4948002E64E5 /* coding_emoji_gif_04@2x.png in Resources */,
 				1258AE401F3C488100CE9CAE /* coding_emoji_26@2x.png in Resources */,
+				EB4A4A272234E71D005347B8 /* yinsi.html in Resources */,
 				1258AE3E1F3C488100CE9CAE /* coding_emoji_24@2x.png in Resources */,
 				122EBBAC1F14D6A6000E7F70 /* keyboard_add@2x.png in Resources */,
 				123A9FEE1F0E150700DCC9E9 /* Assets.xcassets in Resources */,
@@ -1763,6 +1772,7 @@
 				12D86CF71F17634A0069617B /* TZAssetCell.m in Sources */,
 				12D86CFF1F17634A0069617B /* TZVideoPlayerController.m in Sources */,
 				123AA0411F0E30A400DCC9E9 /* UIViewController+Common.m in Sources */,
+				EB4A4A252234B599005347B8 /* YXZIKBaseWKWebViewController.m in Sources */,
 				123AA03D1F0E2F9700DCC9E9 /* FLLoginViewController.m in Sources */,
 				128DCD9F1F26F32B00F52ACD /* FLTabBarMessageItemView.m in Sources */,
 				12D86D001F17634A0069617B /* UIView+Layout.m in Sources */,
@@ -1942,7 +1952,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = FLSocketIM/FLSocketIM.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP8U3K66H6;
@@ -2004,7 +2013,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = FLSocketIM/FLSocketIM.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP8U3K66H6;

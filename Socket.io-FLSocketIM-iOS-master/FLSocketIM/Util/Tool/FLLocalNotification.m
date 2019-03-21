@@ -34,7 +34,7 @@
     content.title = [NSString localizedUserNotificationStringForKey:message.from arguments:nil];
     content.body = [NSString localizedUserNotificationStringForKey:[FLConversationModel getMessageStrWithMessage:message] arguments:nil];
     content.sound = [UNNotificationSound defaultSound];
-    content.badge = @1;
+    content.badge = @0;
     
     // 在 alertTime 后推送本地推送
     UNTimeIntervalNotificationTrigger* trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:0.1 repeats:NO];
@@ -55,7 +55,7 @@
     notification.repeatInterval = kCFCalendarUnitSecond;
     // 通知内容
     notification.alertBody = [NSString stringWithFormat:@"%@\n%@", message.from, [FLConversationModel getMessageStrWithMessage:message]];
-    notification.applicationIconBadgeNumber = 1;
+    notification.applicationIconBadgeNumber = 0;
     // 通知被触发时播放的声音
     notification.soundName = UILocalNotificationDefaultSoundName;
     // 通知参数

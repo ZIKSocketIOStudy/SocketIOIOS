@@ -57,8 +57,8 @@
     
     self.navigationItem.titleView = self.titleView;
     
-    UIBarButtonItem *chat = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(chat)];
-    self.navigationItem.rightBarButtonItem = chat;
+//    UIBarButtonItem *chat = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(chat)];
+//    self.navigationItem.rightBarButtonItem = chat;
     
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];

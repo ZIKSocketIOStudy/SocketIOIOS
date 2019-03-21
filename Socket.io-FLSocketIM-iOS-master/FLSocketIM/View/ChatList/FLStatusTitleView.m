@@ -44,28 +44,28 @@
         case SocketIOClientStatusNotConnected:{
             
             [_indicator stopAnimating];
-            _statusLabel.text = @"FoxChat(未连接)";
+            _statusLabel.text = @"消息(未连接)";
             break;
         }
             
         case SocketIOClientStatusDisconnected:{
             
             [_indicator stopAnimating];
-            _statusLabel.text = @"FoxChat(连接断开)";
+            _statusLabel.text = @"消息(连接断开)";
             break;
         }
             
         case SocketIOClientStatusConnecting:{
             
             [_indicator startAnimating];
-            _statusLabel.text = @"FoxChat(连接中...)";
+            _statusLabel.text = @"消息(连接中...)";
             break;
         }
             
         case SocketIOClientStatusConnected:{
             
             [_indicator stopAnimating];
-            _statusLabel.text = @"FoxChat";
+            _statusLabel.text = @"消息";
             break;
         }
             

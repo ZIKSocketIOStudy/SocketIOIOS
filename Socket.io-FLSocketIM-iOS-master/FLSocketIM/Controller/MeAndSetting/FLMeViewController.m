@@ -9,6 +9,7 @@
 #import "FLMeViewController.h"
 #import "GPUImage.h"
 #import "FLLoginViewController.h"
+#import "YXZIKBaseWKWebViewController.h"
 
 @interface FLMeViewController () <FLClientManagerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *backgoundImage;
@@ -34,7 +35,7 @@
 }
 #pragma mark - UI
 - (void)setupUI {
-    self.navigationItem.title = @"我的";
+    self.navigationItem.title = @"设置";
     
     self.connectBtn.layer.cornerRadius = 8;
     self.existLogin.layer.cornerRadius = 8;
@@ -96,6 +97,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)hh:(UIButton *)sender {
+    YXZIKBaseWKWebViewController *web = [[YXZIKBaseWKWebViewController alloc] init];
+    [web loadWebURLSring:@"https://www.freeprivacypolicy.com/privacy/view/fe0906e01837bf628ec3ded52f7cd223"];
+    web.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:web animated:YES];
+}
+
 
 #pragma mark - FLClientManagerDelegate
 - (void)clientManager:(FLClientManager *)manager didChangeStatus:(SocketIOClientStatus)status {

@@ -21,9 +21,9 @@
         UIButton *locationItem = [self buttonWithImageName:@"keyboard_add_location" title:@"位置" index:2];
         UIButton *videoItem = [self buttonWithImageName:@"keyboard_add_Video" title:@"视频通话" index:3];
         [self addSubview:photoItem];
-        [self addSubview:cameraItem];
-        [self addSubview:locationItem];
-        [self addSubview:videoItem];
+//        [self addSubview:cameraItem];
+//        [self addSubview:locationItem];
+//        [self addSubview:videoItem];
     }
     return self;
 }
