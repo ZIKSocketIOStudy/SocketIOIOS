@@ -10,7 +10,7 @@
 #import "FLTabBarController.h"
 #import "FLSocketManager.h"
 #import "FLClientManager.h"
-
+#import "ZIKRegisterViewController.h"
 
 static NSString *loginAccountInfo = @"loginAccountInfo";
 @interface FLLoginViewController ()
@@ -115,7 +115,12 @@ static NSString *loginAccountInfo = @"loginAccountInfo";
 }
 - (IBAction)registerAccount:(id)sender {
     
-
+    ZIKRegisterViewController *vc = [[ZIKRegisterViewController alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:nil];
+    
+    return;
     
     if([self checkInput]) {
         

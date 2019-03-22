@@ -24,6 +24,7 @@
 #import "FLLocationDetailViewController.h"
 #import "FLImageBrowseViewController.h"
 #import "FLImageBrowseModel.h"
+#import "ZIKComplaintViewController.h"
 
 @interface FLChatViewController () <UITableViewDelegate, UITableViewDataSource, FLClientManagerDelegate, FLMessageInputViewDelegate, UIScrollViewDelegate, TZImagePickerControllerDelegate, FLMessageCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
@@ -68,7 +69,20 @@
     [self queryDataFromDB];
     
     [self updateUnreadMessageRedIconForListAndDB];
-    
+     
+         UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//         [btn setBackgroundImage:[UIImage imageNamed:@"message_add"] forState:UIControlStateNormal];
+     [btn setTitle:@"投诉" forState:UIControlStateNormal];
+     btn.frame = CGRectMake(5, 0, 44, 44);
+     //    btn.tag = tag;
+     [btn addTarget:self action:@selector(tapRightNavigationBar) forControlEvents:UIControlEventTouchUpInside];
+     UIBarButtonItem * barBtnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+     self.navigationItem.rightBarButtonItem = barBtnItem;
+}
+
+- (void)tapRightNavigationBar {
+     ZIKComplaintViewController *vc = [[ZIKComplaintViewController alloc] init];
+     [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)dealloc {

@@ -39,7 +39,7 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="IzX-Rr-qwu">
-                    <rect key="frame" x="30" y="240" width="315" height="40"/>
+                    <rect key="frame" x="30" y="220" width="315" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="VS8-Vd-Q34"/>
                     </constraints>
@@ -47,11 +47,25 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoJ-J2-FFg">
-                    <rect key="frame" x="40" y="330" width="107.5" height="43"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anu-FG-rxZ">
+                    <rect key="frame" x="82" y="364" width="211" height="43"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="zoJ-J2-FFg" secondAttribute="height" multiplier="2.5" id="mAV-ew-HaP"/>
+                        <constraint firstAttribute="height" constant="43" id="lch-Vx-kFI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                    <state key="normal" title="点这里去注册">
+                        <color key="titleColor" red="0.067499190410000007" green="0.067499190410000007" blue="0.067499190410000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="registerAccount:" destination="-1" eventType="touchUpInside" id="8FD-am-5ZS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoJ-J2-FFg">
+                    <rect key="frame" x="82" y="301" width="211" height="43"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="Uqq-Sf-gkL"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                     <state key="normal" title="登录">
@@ -61,39 +75,27 @@
                         <action selector="login:" destination="-1" eventType="touchUpInside" id="ea6-eM-hET"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anu-FG-rxZ">
-                    <rect key="frame" x="227.5" y="330" width="107.5" height="43"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
-                    <state key="normal" title="注册">
-                        <color key="titleColor" red="0.067499190410000007" green="0.067499190410000007" blue="0.067499190410000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="registerAccount:" destination="-1" eventType="touchUpInside" id="8FD-am-5ZS"/>
-                    </connections>
-                </button>
             </subviews>
             <color key="backgroundColor" red="0.067499190414507804" green="0.067499190414507804" blue="0.067499190414507804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="IzX-Rr-qwu" firstAttribute="top" secondItem="QSH-GE-9kg" secondAttribute="bottom" constant="50" id="07f-gJ-FVo"/>
-                <constraint firstAttribute="trailing" secondItem="Anu-FG-rxZ" secondAttribute="trailing" constant="40" id="5LV-em-hfN"/>
+                <constraint firstItem="IzX-Rr-qwu" firstAttribute="top" secondItem="QSH-GE-9kg" secondAttribute="bottom" constant="30" id="07f-gJ-FVo"/>
                 <constraint firstItem="QSH-GE-9kg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8xP-W8-6Lk"/>
                 <constraint firstItem="5Bm-DA-aFv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="94v-hs-1tz"/>
-                <constraint firstItem="Anu-FG-rxZ" firstAttribute="height" secondItem="zoJ-J2-FFg" secondAttribute="height" id="CNq-P1-CzX"/>
-                <constraint firstItem="Anu-FG-rxZ" firstAttribute="centerY" secondItem="zoJ-J2-FFg" secondAttribute="centerY" id="Fu8-KT-y8K"/>
+                <constraint firstItem="zoJ-J2-FFg" firstAttribute="top" secondItem="IzX-Rr-qwu" secondAttribute="bottom" constant="41" id="FQQ-e9-9SO"/>
                 <constraint firstItem="IzX-Rr-qwu" firstAttribute="height" secondItem="QSH-GE-9kg" secondAttribute="height" id="R8C-zh-aek"/>
-                <constraint firstItem="Anu-FG-rxZ" firstAttribute="width" secondItem="zoJ-J2-FFg" secondAttribute="width" id="Tz7-Dv-NFC"/>
                 <constraint firstAttribute="trailing" secondItem="5Bm-DA-aFv" secondAttribute="trailing" id="YxS-WE-cg2"/>
+                <constraint firstItem="Anu-FG-rxZ" firstAttribute="top" secondItem="zoJ-J2-FFg" secondAttribute="bottom" constant="20" id="b36-6N-f2W"/>
                 <constraint firstItem="5Bm-DA-aFv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="bDE-ch-i08"/>
-                <constraint firstItem="zoJ-J2-FFg" firstAttribute="top" secondItem="IzX-Rr-qwu" secondAttribute="bottom" constant="50" id="bHU-Nn-OoR"/>
                 <constraint firstItem="QSH-GE-9kg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="gsK-ZA-aAf"/>
                 <constraint firstItem="IzX-Rr-qwu" firstAttribute="width" secondItem="QSH-GE-9kg" secondAttribute="width" id="he1-6N-8qv"/>
+                <constraint firstItem="Anu-FG-rxZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="82" id="l89-3A-nId"/>
                 <constraint firstItem="QSH-GE-9kg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="mPE-Ve-BcA"/>
+                <constraint firstAttribute="trailing" secondItem="zoJ-J2-FFg" secondAttribute="trailing" constant="82" id="mr3-1B-Yvh"/>
                 <constraint firstItem="IzX-Rr-qwu" firstAttribute="centerX" secondItem="QSH-GE-9kg" secondAttribute="centerX" id="tZa-2q-7eD"/>
-                <constraint firstItem="zoJ-J2-FFg" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-40" id="usD-Fm-VNc"/>
-                <constraint firstItem="zoJ-J2-FFg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="zAY-I9-lSj"/>
+                <constraint firstItem="zoJ-J2-FFg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="82" id="w0m-ef-ry7"/>
+                <constraint firstAttribute="trailing" secondItem="Anu-FG-rxZ" secondAttribute="trailing" constant="82" id="z7K-e9-Vll"/>
             </constraints>
-            <point key="canvasLocation" x="483" y="-207"/>
+            <point key="canvasLocation" x="482.39999999999998" y="-207.34632683658174"/>
         </view>
     </objects>
 </document>

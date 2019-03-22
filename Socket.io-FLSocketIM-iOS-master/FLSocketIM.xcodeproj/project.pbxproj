@@ -201,6 +201,20 @@
 		EB29E5D521DE577A00B6EEC0 /* ZIKCreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB29E5D421DE577A00B6EEC0 /* ZIKCreateGroupViewController.m */; };
 		EB4A4A252234B599005347B8 /* YXZIKBaseWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4A4A232234B598005347B8 /* YXZIKBaseWKWebViewController.m */; };
 		EB4A4A272234E71D005347B8 /* yinsi.html in Resources */ = {isa = PBXBuildFile; fileRef = EB4A4A262234E71D005347B8 /* yinsi.html */; };
+		EB5E8CF122438ABA002899BF /* ZIKRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8CEF22438ABA002899BF /* ZIKRegisterViewController.m */; };
+		EB5E8CF222438ABA002899BF /* ZIKRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8CF022438ABA002899BF /* ZIKRegisterViewController.xib */; };
+		EB5E8CF622438ADC002899BF /* ZIKRegisterProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8CF422438ADC002899BF /* ZIKRegisterProtocolViewController.m */; };
+		EB5E8CF722438ADC002899BF /* ZIKRegisterProtocolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8CF522438ADC002899BF /* ZIKRegisterProtocolViewController.xib */; };
+		EB5E8CFA22439B4A002899BF /* TOGetCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8CF922439B4A002899BF /* TOGetCodeButton.m */; };
+		EB5E8CFE224440A3002899BF /* ZIKComplaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8CFC224440A2002899BF /* ZIKComplaintViewController.m */; };
+		EB5E8CFF224440A3002899BF /* ZIKComplaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8CFD224440A2002899BF /* ZIKComplaintViewController.xib */; };
+		EB5E8D0722444426002899BF /* TOOpinionsAndFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8D0522444426002899BF /* TOOpinionsAndFeedbackViewController.xib */; };
+		EB5E8D0822444426002899BF /* TOOpinionsAndFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D0622444426002899BF /* TOOpinionsAndFeedbackViewController.m */; };
+		EB5E8D0D224444AF002899BF /* YXPickImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D0A224444AF002899BF /* YXPickImageView.m */; };
+		EB5E8D0E224444AF002899BF /* YXPickButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D0B224444AF002899BF /* YXPickButton.m */; };
+		EB5E8D11224444D2002899BF /* NIMKitMediaFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D10224444D2002899BF /* NIMKitMediaFetcher.m */; };
+		EB5E8D1422444566002899BF /* UIActionSheet+NTESBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D1322444566002899BF /* UIActionSheet+NTESBlock.m */; };
+		EB5E8D17224446A2002899BF /* NIMKitFileLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8D15224446A1002899BF /* NIMKitFileLocationHelper.m */; };
 		EBE7C84D21EC9F8D00A2C3D6 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE7C84C21EC9F8D00A2C3D6 /* libWebRTC.a */; };
 /* End PBXBuildFile section */
 
@@ -516,6 +530,30 @@
 		EB4A4A232234B598005347B8 /* YXZIKBaseWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXZIKBaseWKWebViewController.m; sourceTree = "<group>"; };
 		EB4A4A242234B598005347B8 /* YXZIKBaseWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXZIKBaseWKWebViewController.h; sourceTree = "<group>"; };
 		EB4A4A262234E71D005347B8 /* yinsi.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = yinsi.html; sourceTree = "<group>"; };
+		EB5E8CEE22438ABA002899BF /* ZIKRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIKRegisterViewController.h; sourceTree = "<group>"; };
+		EB5E8CEF22438ABA002899BF /* ZIKRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIKRegisterViewController.m; sourceTree = "<group>"; };
+		EB5E8CF022438ABA002899BF /* ZIKRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZIKRegisterViewController.xib; sourceTree = "<group>"; };
+		EB5E8CF322438ADC002899BF /* ZIKRegisterProtocolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIKRegisterProtocolViewController.h; sourceTree = "<group>"; };
+		EB5E8CF422438ADC002899BF /* ZIKRegisterProtocolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIKRegisterProtocolViewController.m; sourceTree = "<group>"; };
+		EB5E8CF522438ADC002899BF /* ZIKRegisterProtocolViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZIKRegisterProtocolViewController.xib; sourceTree = "<group>"; };
+		EB5E8CF822439B49002899BF /* TOGetCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOGetCodeButton.h; sourceTree = "<group>"; };
+		EB5E8CF922439B4A002899BF /* TOGetCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOGetCodeButton.m; sourceTree = "<group>"; };
+		EB5E8CFB224440A2002899BF /* ZIKComplaintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZIKComplaintViewController.h; sourceTree = "<group>"; };
+		EB5E8CFC224440A2002899BF /* ZIKComplaintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZIKComplaintViewController.m; sourceTree = "<group>"; };
+		EB5E8CFD224440A2002899BF /* ZIKComplaintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZIKComplaintViewController.xib; sourceTree = "<group>"; };
+		EB5E8D0422444425002899BF /* TOOpinionsAndFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOOpinionsAndFeedbackViewController.h; sourceTree = "<group>"; };
+		EB5E8D0522444426002899BF /* TOOpinionsAndFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOOpinionsAndFeedbackViewController.xib; sourceTree = "<group>"; };
+		EB5E8D0622444426002899BF /* TOOpinionsAndFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOOpinionsAndFeedbackViewController.m; sourceTree = "<group>"; };
+		EB5E8D09224444AF002899BF /* YXPickButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPickButton.h; sourceTree = "<group>"; };
+		EB5E8D0A224444AF002899BF /* YXPickImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPickImageView.m; sourceTree = "<group>"; };
+		EB5E8D0B224444AF002899BF /* YXPickButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPickButton.m; sourceTree = "<group>"; };
+		EB5E8D0C224444AF002899BF /* YXPickImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPickImageView.h; sourceTree = "<group>"; };
+		EB5E8D0F224444D2002899BF /* NIMKitMediaFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitMediaFetcher.h; sourceTree = "<group>"; };
+		EB5E8D10224444D2002899BF /* NIMKitMediaFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMKitMediaFetcher.m; sourceTree = "<group>"; };
+		EB5E8D1222444566002899BF /* UIActionSheet+NTESBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+NTESBlock.h"; sourceTree = "<group>"; };
+		EB5E8D1322444566002899BF /* UIActionSheet+NTESBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+NTESBlock.m"; sourceTree = "<group>"; };
+		EB5E8D15224446A1002899BF /* NIMKitFileLocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIMKitFileLocationHelper.m; sourceTree = "<group>"; };
+		EB5E8D16224446A2002899BF /* NIMKitFileLocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMKitFileLocationHelper.h; sourceTree = "<group>"; };
 		EBE7C82E21EC9F8D00A2C3D6 /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
 		EBE7C82F21EC9F8D00A2C3D6 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
 		EBE7C83021EC9F8D00A2C3D6 /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
@@ -729,6 +767,16 @@
 		123AA0191F0E15D100DCC9E9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EB5E8D16224446A2002899BF /* NIMKitFileLocationHelper.h */,
+				EB5E8D15224446A1002899BF /* NIMKitFileLocationHelper.m */,
+				EB5E8D1222444566002899BF /* UIActionSheet+NTESBlock.h */,
+				EB5E8D1322444566002899BF /* UIActionSheet+NTESBlock.m */,
+				EB5E8D09224444AF002899BF /* YXPickButton.h */,
+				EB5E8D0B224444AF002899BF /* YXPickButton.m */,
+				EB5E8D0C224444AF002899BF /* YXPickImageView.h */,
+				EB5E8D0A224444AF002899BF /* YXPickImageView.m */,
+				EB5E8D0F224444D2002899BF /* NIMKitMediaFetcher.h */,
+				EB5E8D10224444D2002899BF /* NIMKitMediaFetcher.m */,
 				12D462101F288F7400507256 /* Audio */,
 				12D45B101F21D44800B3CB83 /* Tool */,
 				123AA0351F0E25E900DCC9E9 /* Manager */,
@@ -843,6 +891,14 @@
 				123AA03C1F0E2F9700DCC9E9 /* FLLoginViewController.h */,
 				123AA03A1F0E2F9700DCC9E9 /* FLLoginViewController.m */,
 				123AA03B1F0E2F9700DCC9E9 /* FLLoginViewController.xib */,
+				EB5E8CEE22438ABA002899BF /* ZIKRegisterViewController.h */,
+				EB5E8CEF22438ABA002899BF /* ZIKRegisterViewController.m */,
+				EB5E8CF022438ABA002899BF /* ZIKRegisterViewController.xib */,
+				EB5E8CF322438ADC002899BF /* ZIKRegisterProtocolViewController.h */,
+				EB5E8CF422438ADC002899BF /* ZIKRegisterProtocolViewController.m */,
+				EB5E8CF522438ADC002899BF /* ZIKRegisterProtocolViewController.xib */,
+				EB5E8CF822439B49002899BF /* TOGetCodeButton.h */,
+				EB5E8CF922439B4A002899BF /* TOGetCodeButton.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -854,6 +910,12 @@
 				123AA04F1F0E3CBB00DCC9E9 /* FLChatListViewController.m */,
 				123AA0511F0E3CD200DCC9E9 /* FLChatViewController.h */,
 				123AA0521F0E3CD200DCC9E9 /* FLChatViewController.m */,
+				EB5E8CFB224440A2002899BF /* ZIKComplaintViewController.h */,
+				EB5E8CFC224440A2002899BF /* ZIKComplaintViewController.m */,
+				EB5E8CFD224440A2002899BF /* ZIKComplaintViewController.xib */,
+				EB5E8D0422444425002899BF /* TOOpinionsAndFeedbackViewController.h */,
+				EB5E8D0622444426002899BF /* TOOpinionsAndFeedbackViewController.m */,
+				EB5E8D0522444426002899BF /* TOOpinionsAndFeedbackViewController.xib */,
 				12BF1E4C1F3D477D003A31E1 /* FLVideoViewController.h */,
 				12BF1E4D1F3D477D003A31E1 /* FLVideoViewController.m */,
 				12BF1E4E1F3D477D003A31E1 /* FLVideoViewController.xib */,
@@ -1461,6 +1523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5E8CF222438ABA002899BF /* ZIKRegisterViewController.xib in Resources */,
 				1258AE321F3C488100CE9CAE /* coding_emoji_12@2x.png in Resources */,
 				12BAF8101F1701F7007CC695 /* Fruit-7.png in Resources */,
 				122EBBAE1F14D6A6000E7F70 /* keyboard_add_photo@2x.png in Resources */,
@@ -1516,6 +1579,7 @@
 				1258AE451F3C488100CE9CAE /* coding_emoji_31@2x.png in Resources */,
 				12BAF80C1F1701F7007CC695 /* Fruit-3.png in Resources */,
 				122EBBAF1F14D6A6000E7F70 /* keyboard_arrow_down@2x.png in Resources */,
+				EB5E8CF722438ADC002899BF /* ZIKRegisterProtocolViewController.xib in Resources */,
 				1233925D1F3C4948002E64E5 /* coding_emoji_gif_04@2x.png in Resources */,
 				1258AE401F3C488100CE9CAE /* coding_emoji_26@2x.png in Resources */,
 				EB4A4A272234E71D005347B8 /* yinsi.html in Resources */,
@@ -1532,8 +1596,10 @@
 				1258AE481F3C488100CE9CAE /* coding_emoji_34@2x.png in Resources */,
 				1258AE3B1F3C488100CE9CAE /* coding_emoji_21@2x.png in Resources */,
 				1258AE441F3C488100CE9CAE /* coding_emoji_30@2x.png in Resources */,
+				EB5E8D0722444426002899BF /* TOOpinionsAndFeedbackViewController.xib in Resources */,
 				122EBBB01F14D6A6000E7F70 /* keyboard_at@2x.png in Resources */,
 				122EBBBC1F14D6A6000E7F70 /* keyboard_voice@2x.png in Resources */,
+				EB5E8CFF224440A3002899BF /* ZIKComplaintViewController.xib in Resources */,
 				1258AE2E1F3C488100CE9CAE /* coding_emoji_08@2x.png in Resources */,
 				12BAF80F1F1701F7007CC695 /* Fruit-6.png in Resources */,
 				12D4623A1F28A59000507256 /* emotion_list.plist in Resources */,
@@ -1707,9 +1773,12 @@
 				1255BDD01F25E1D10089F6D0 /* UIImageView+common.m in Sources */,
 				12D86CFB1F17634A0069617B /* TZImagePickerController.m in Sources */,
 				129E323B1F1E09EA00ECB93C /* FLFriendModel.m in Sources */,
+				EB5E8CF622438ADC002899BF /* ZIKRegisterProtocolViewController.m in Sources */,
 				12D082F81F15F72F00E0D238 /* FLFriendsListCell.m in Sources */,
 				12D082FB1F160FCF00E0D238 /* FLBridgeDelegateModel.m in Sources */,
 				12D809AB1F1C65DA0072A42B /* NSString+Common.m in Sources */,
+				EB5E8D0D224444AF002899BF /* YXPickImageView.m in Sources */,
+				EB5E8D0E224444AF002899BF /* YXPickButton.m in Sources */,
 				1258EF5B1F42FB5500282C00 /* FLLocationViewController.m in Sources */,
 				123AA0561F0E3DD600DCC9E9 /* FLFriendsAndGroupsViewController.m in Sources */,
 				12B9D9641F0F264000B7F749 /* FLMessageCell.m in Sources */,
@@ -1739,12 +1808,14 @@
 				12D86CFC1F17634A0069617B /* TZPhotoPickerController.m in Sources */,
 				12D86CF91F17634A0069617B /* TZImageManager.m in Sources */,
 				12BF1E431F3D40B7003A31E1 /* FLMessageInputView_Add.m in Sources */,
+				EB5E8D0822444426002899BF /* TOOpinionsAndFeedbackViewController.m in Sources */,
 				128DCD9C1F26E97300F52ACD /* FLBarBadgeLabel.m in Sources */,
 				12BF1E411F3D40B7003A31E1 /* FLAudioVolumeView.m in Sources */,
 				12BEEE271F1316DD00FF3B44 /* FLClientManager.m in Sources */,
 				12FAD4E91F501B2600626A3E /* NSData+FLCommon.m in Sources */,
 				12BF1E401F3D40B7003A31E1 /* FLAudioRecordView.m in Sources */,
 				123AA0501F0E3CBB00DCC9E9 /* FLChatListViewController.m in Sources */,
+				EB5E8D17224446A2002899BF /* NIMKitFileLocationHelper.m in Sources */,
 				12D462371F28A59000507256 /* AGEmojiKeyBoardView.m in Sources */,
 				12BEEE2D1F13202900FF3B44 /* FLChatDBManager.m in Sources */,
 				123AA04D1F0E3C9C00DCC9E9 /* FLViewController.m in Sources */,
@@ -1756,6 +1827,7 @@
 				125A89BB1F555CF000941102 /* FLVideoChatHelper.m in Sources */,
 				1255BDCD1F2584080089F6D0 /* FLSystemTool.m in Sources */,
 				12D86CF61F17634A0069617B /* NSBundle+TZImagePicker.m in Sources */,
+				EB5E8D1422444566002899BF /* UIActionSheet+NTESBlock.m in Sources */,
 				EB29E5D521DE577A00B6EEC0 /* ZIKCreateGroupViewController.m in Sources */,
 				12B9D9691F0F26A400B7F749 /* FLMessageModel.m in Sources */,
 				128DCDA91F2720CD00F52ACD /* FLMeViewController.m in Sources */,
@@ -1764,6 +1836,7 @@
 				12D462221F288F7400507256 /* amrFileCodec.m in Sources */,
 				123A9FE61F0E150700DCC9E9 /* AppDelegate.m in Sources */,
 				12E886ED1F4B0984005563B7 /* FLMessageCellContentView.m in Sources */,
+				EB5E8CFA22439B4A002899BF /* TOGetCodeButton.m in Sources */,
 				1219509E1F650E57009D6154 /* FLImageBrowseModel.m in Sources */,
 				12B9D95F1F0F1B4200B7F749 /* UIColor+Common.m in Sources */,
 				12BF1E491F3D412A003A31E1 /* FLVideoProgressView.m in Sources */,
@@ -1775,7 +1848,10 @@
 				EB4A4A252234B599005347B8 /* YXZIKBaseWKWebViewController.m in Sources */,
 				123AA03D1F0E2F9700DCC9E9 /* FLLoginViewController.m in Sources */,
 				128DCD9F1F26F32B00F52ACD /* FLTabBarMessageItemView.m in Sources */,
+				EB5E8CFE224440A3002899BF /* ZIKComplaintViewController.m in Sources */,
+				EB5E8CF122438ABA002899BF /* ZIKRegisterViewController.m in Sources */,
 				12D86D001F17634A0069617B /* UIView+Layout.m in Sources */,
+				EB5E8D11224444D2002899BF /* NIMKitMediaFetcher.m in Sources */,
 				12EF3B8E1F18580500111000 /* FLChatListCell.m in Sources */,
 				12D461CA1F2826C600507256 /* FLStatusTitleView.m in Sources */,
 				12EF3B951F189B4C00111000 /* FLBadgeLabel.m in Sources */,

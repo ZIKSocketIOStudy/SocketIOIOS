@@ -57,7 +57,7 @@
 //    UIBarButtonItem * barBtnItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
 //    self.navigationItem.rightBarButtonItem = barBtnItem;
     
-    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44) style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     _tableView.delegate = self;
     _tableView.dataSource = self;
